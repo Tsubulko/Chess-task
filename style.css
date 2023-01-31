@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.chess-desk {
+    display: flex;
+    margin: auto;
+    width: 808px;
+    height: 808px;
+    flex-wrap: wrap;
+    border: 4px solid;
+}
+.spot {
+    background: rgb(56, 56, 56);
+    width: 100px;
+    height: 100px;
+}
+.white-spot {
+    background: rgb(255, 255, 255);
+}
+.active {
+    background-image: url(./assets/6619440_business_chess_horse_knight_seo_icon.png);
+    background-size: contain;
+}
+.step {
+    background-image: url(./assets/211717_circle_icon.png);
+    background-size: contain;
+}
